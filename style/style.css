@@ -11,13 +11,14 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
+    margin-top: 50px;
 }
 
 
 
 .content {
 
-    padding: 177px 334px;
+    padding: 120px 334px;
     /* width: 0 82.5%;
     max-width: 1320px; */
 }
@@ -117,11 +118,171 @@
 }
 
 .pic2 {
-   position: absolute;
-   top: 70px;
-   right: 135px;
+    position: absolute;
+    top: 70px;
+    right: 135px;
 }
-.content2{
+
+.content2 {
     margin-top: 80px;
     padding-right: 190px;
+}
+
+.window {
+    background-color: pink;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    margin-top: 840px;
+    margin-left: 280px;
+    border-radius: 16px;
+}
+
+.window {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.place {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.date {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.time {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.window span {
+    color: #F00;
+}
+
+.new-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.description3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+}
+
+.round {
+    padding: 49px 49px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.title4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.description4 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+}
+
+.window2 {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin-left: 280px;
+    margin-top: 120px;
+}
+
+.window3 {
+    text-align: center;
+    margin-top: 120px;
+    width: 1320px;
+    height: 728px;
+    margin-left: 280px;
+}
+
+.title5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale span {
+    color: #F00;
+}
+
+.window3 p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.gift {
+    padding-top: 64px;
+    padding-right: 523px;
+    background-image: url(../images/Rectangle\ 2.png), url(../images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    background-position: bottom , right 25%;
+    width: 796.463px;
+    height: 662.07px;
+}
+
+.discount {
+    width: 206.841px;
+    height: 206.841px;
+    position: absolute;
+    right: 620px;
+    padding-top: 240px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
 }
