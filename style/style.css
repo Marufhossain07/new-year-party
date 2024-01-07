@@ -269,7 +269,7 @@
     background-image: url(../images/Rectangle\ 2.png), url(../images/Rectangle\ 1.png);
     background-repeat: no-repeat;
     border-radius: 16px 16px 0px 0px;
-    background-position: bottom , right 25%;
+    background-position: bottom, right 25%;
     width: 796.463px;
     height: 662.07px;
 }
@@ -285,4 +285,108 @@
 .container {
     display: flex;
     justify-content: space-between;
+}
+
+.window4 {
+    margin-top: 540px;
+}
+
+.window4 h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.window4 h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.window4 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+}
+
+.container2 {
+    width: 1320px;
+    padding-left: 280px;
+}
+
+.pics {
+    margin: 5px;
+}
+
+.window5 {
+    margin-top: 120px;
+    width: 1320px;
+    margin-left: 280px;
+    text-align: center;
+    background-color: #FEF2F2;
+
+}
+
+.window5 h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.window5 p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    padding-left: 212px;
+}
+
+.mail {
+    padding-top: 80px;
+}
+
+.email {
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    border: 0;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.btn2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 210px;
+    height: 72px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
+form {
+    align-self: center;
+    padding-bottom: 80px;
+    display: flex;
+    padding-left: 280px;
 }
